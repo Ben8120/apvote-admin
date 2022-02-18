@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
 
 import Navbar from './components/Navbar';
 import AddCampaign from './screens/AddCampaign';
