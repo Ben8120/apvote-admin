@@ -3,6 +3,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import AddCampaign from './screens/AddCampaign';
+import AddCandidates from './screens/AddCandidates';
 import Home from './screens/Home';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Switch>
             <Route exact path="/"><Home /></Route>
             <Route path="/addCampaign"><AddCampaign /></Route>
+            <Route path="/addCandidates"><AddCandidates /></Route>
           </Switch>
         </div>
       </div>
